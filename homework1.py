@@ -24,18 +24,33 @@
 # # # print(ex1)
 # # # print(type(ex1))
 # #
-# # # 5 Стрічкова конкатенація + математика:
-# #
-# # digit1_str = str(digit_1)
-# # digit2_str = str(digit_2)
-# # print(type(digit1_str))
-# # print(type(digit2_str))
-# # print(digit1_str)
-# # print(digit2_str)
-# # result_sum = (digit_1 + digit_2)
-# # print(result_sum)
-# # result_conc = (digit1_str + digit2_str)
-# # print(result_conc)
+
+# 5 Стрічкова конкатенація + математика:
+# Користувач вводить два числа. Програма повинна вивести два прінти: перший — їхню суму,
+# другий об'єднати їх. Якщо в нас числа 5 та 4, то результат повинен бути 9 та 54.
+# Користувач вводить два числа
+digit_1 = int(input("Введіть перше число: "))
+digit_2 = int(input("Введіть друге число: "))
+
+# Перетворюємо числа на рядки
+digit1_str = str(digit_1)
+digit2_str = str(digit_2)
+
+# Перевіряємо типи змінних
+print(type(digit1_str))
+print(type(digit2_str))
+
+# Виводимо рядки
+print(digit1_str)
+print(digit2_str)
+
+# Обчислюємо суму чисел
+result_sum = digit_1 + digit_2
+print(result_sum)
+
+# Конкатенація рядків
+result_conc = digit1_str + digit2_str
+print(result_conc)
 # #
 # # # 6 Вік користувача:
 # # year_born = int(input("what year were you born?"))
@@ -153,12 +168,11 @@
 # # програма приймає від користувача його зарплату за 3 місяці та відсоток який він має сплатити.
 # # Виведіть на екран скільки треба сплатити податків за 3 місяці. Не забудьте ЄСВ(4422)
 #
-# salary1 = float(input('salary1'))
-# salary2 = float(input('salary2'))
-# salary3 = float(input('salary3'))
-# fee = float(input('your fee'))
-# totalSalary = salary1 + salary2 + salary3
-# totalFee = (totalSalary * fee) / 100
-# feeAndEsv = totalFee + (4422*3)
-#
-# print(feeAndEsv)
+salary1 = float(input('salary1'))
+salary2 = float(input('salary2'))
+salary3 = float(input('salary3'))
+fee = float(input('your fee'))
+totalSalary = salary1 + salary2 + salary3
+totalFee = (totalSalary * fee) / 100
+feeAndEsv = totalFee + (4422*3)
+print(feeAndEsv)
