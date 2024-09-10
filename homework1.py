@@ -168,11 +168,12 @@ print(result_conc)
 # # програма приймає від користувача його зарплату за 3 місяці та відсоток який він має сплатити.
 # # Виведіть на екран скільки треба сплатити податків за 3 місяці. Не забудьте ЄСВ(4422)
 #
-salary1 = float(input('salary1'))
-salary2 = float(input('salary2'))
-salary3 = float(input('salary3'))
-fee = float(input('your fee'))
-totalSalary = salary1 + salary2 + salary3
-totalFee = (totalSalary * fee) / 100
-feeAndEsv = totalFee + (4422*3)
-print(feeAndEsv)
+# salary1 = float(input('salary1'))
+# salary2 = float(input('salary2'))
+# salary3 = float(input('salary3'))
+# fee = float(input('your fee'))
+# totalSalary = salary1 + salary2 + salary3
+# totalFee = (totalSalary * fee) / 100
+# feeAndEsv = totalFee + (4422*3)
+# print(feeAndEsv)
+
